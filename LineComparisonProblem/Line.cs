@@ -17,11 +17,12 @@ namespace LineComparisonProblem
             this.pointY2 = pointY2;
         }
 
-        public void Length()
+        public double Length()
         {
             double length = Math.Sqrt(Math.Pow((poIntX2 - PointX1), 2) + Math.Pow((pointY2 - _pointY1), 2));
-            Console.WriteLine("length of line : " + length);
+            return length;
         }
+
 
     }
 }
